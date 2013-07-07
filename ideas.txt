@@ -1,0 +1,45 @@
+Tree control values are:
+
+Fuel
+  Low Cam
+  High Cam
+  Target AFR
+  Delta AFR
+Spark
+  Low Cam
+  High Cam
+Log Data
+  Pull 1
+  Pull 2
+  Pull 3
+  Pull 4
+  New Pull
+Options  
+  Fuel Multiplier
+  Cold Start
+  Bla bla bla
+Hardware
+  Ostrich
+  Logger
+
+
+
+
+Across the top to the right of the tree control:
+Gauges for RPM, MAP, ECT, IAT, TPS, Speed
+Button for Real-time Updates
+Button for Logging
+
+
+Control of "session" at some level so we don't get too many pulls.  A session is a number of pulls.
+
+Export pulls to log format the Logworks can view - quick button to launch it.
+
+
+Create a main frame that's for tuning with a subsection of the tree control that matches.  Multiple frames can be created with views into the same document - allow users to view high cam and log at the same time, for example.
+
+* Create a follow vtec toggle for the logging window
+* Tie cells in the AFR log to the fuel or timing maps (how?)
+* Have AFR window be a different view with its own controls configuring which map it controls?
+* Provide a log and an estimated new log view?
+* 
